@@ -26,17 +26,17 @@ const info = [
   }
 ]
 
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
     <motion.div
-    initial={{ opacity: 0 }}
-    animate={{ 
-      opacity: 1,
-      transition: { duration: 0.5, delay: 2.4, ease: "easeIn" }, 
-    }}
-    className="py-6 "
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: { duration: 0.5, delay: 2.4, ease: "easeIn" },
+      }}
+      className="py-6 "
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
@@ -50,7 +50,7 @@ const Contact = () => {
               {/* 🧠 Hidden inputs for FormSubmit configuration */}
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="http://localhost:3000" />
+              <input type="hidden" name="_next" value="https://naffscg.my.id" />
               {/* ganti yourdomain.com dengan domain website kamu nanti */}
 
               <h3 className="text-4xl text-accent">Let's work together</h3>
@@ -68,12 +68,12 @@ const Contact = () => {
               </div>
 
               <Select name="service">
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="w-full px-6">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectLabel>Select a Service</SelectLabel>
+                    {/* <SelectLabel>Select a Service</SelectLabel> */}
                     <SelectItem value="Web Development">Web Development</SelectItem>
                     <SelectItem value="Data Entry">Data Entry</SelectItem>
                     <SelectItem value="Data Analysis">Data Analysis</SelectItem>
@@ -97,21 +97,21 @@ const Contact = () => {
           </div>
           {/*info*/}
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-nono mb-8 xl:mb-0">
-              <ul className="flex flex-col gap-10">
-                {info.map((item, index) => {
-                  return (
-                    <li key={index} className="flex items-center gap-6">
-                      <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center">
-                        <div className="text-[28px]">{item.icon}</div>
-                      </div>
-                      <div className="flex-1">
-                        <p className="text-white/60">{item.title}</p>
-                        <h3 className="text-xl">{item.desc}</h3>
-                      </div>
-                    </li>
-                  )
-                })}
-              </ul>
+            <ul className="flex flex-col gap-10">
+              {info.map((item, index) => {
+                return (
+                  <li key={index} className="flex items-center gap-6">
+                    <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center">
+                      <div className="text-[28px]">{item.icon}</div>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-white/60">{item.title}</p>
+                      <h3 className="text-xl">{item.desc}</h3>
+                    </div>
+                  </li>
+                )
+              })}
+            </ul>
           </div>
         </div>
       </div>

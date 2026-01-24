@@ -25,8 +25,8 @@ const services = [
   },
   {
     num: "04",
-    title: "IoT Development",
-    description: "Creating integrated Internet of Things (IoT) solutions for real-time device monitoring and control, enabling automation and efficiency across various industries.",
+    title: "QC/QA Software Testing",
+    description: "Ensuring software quality through rigorous testing processes, identifying bugs, and verifying that applications meet specified requirements before deployment.",
     href: ""
   }
 ];
