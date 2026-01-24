@@ -1,11 +1,13 @@
 'use client';
 
+import { useState } from "react";
+
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress, SiMqtt, SiMysql, SiArduino } from "react-icons/si";
 
 const about = {
   title: "About Me",
-  desc: "I am a passionate web developer with over 3 years of experience in creating dynamic and responsive websites. My expertise lies in front-end development, but I also have a strong understanding of back-end technologies. I love to learn new things and stay updated with the latest trends in web development.",
+  desc: "I am a passionate web developer with over 2 years of experience in creating dynamic and responsive websites. My expertise lies in front-end development, but I also have a strong understanding of back-end technologies. I love to learn new things and stay updated with the latest trends in web development.",
   info: [
     { fieldName: "Name", fieldValue: "Moh. Alim Nafi' Adiansyah" },
     { fieldName: "Phone", fieldValue: "+62 857 4346 0518" },
@@ -146,6 +148,8 @@ import { ScrollArea } from "@components/ui/scroll-area";
 import { motion } from "framer-motion";
 
 const Resume = () => {
+  const [openSkillIndex, setOpenSkillIndex] = useState(null);
+
   // Sorting experience items dynamically by date (newest first)
   const sortedExperienceItems = [...experience.items].sort((a, b) => {
     // Handle "Now" as current date
@@ -228,18 +232,18 @@ const Resume = () => {
                   {skills.skillList.map((item, index) => {
                     return (
                       <li key={index}>
-                        <TooltipProvider delayDuration={100}>
-                          <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] flex items-center justify-center rounded-xl bg-[#232329] group">
-                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
-                                {item.icon}
-                              </div>
-                            </TooltipTrigger>
-                            <TooltipContent className="bg-white/10 text-white/80 border-0 shadow-lg">
-                              <p className="capitalize ">{item.name}</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        </TooltipProvider>
+                        <Tooltip open={openSkillIndex === index} onOpenChange={(isOpen) => setOpenSkillIndex(isOpen ? index : null)}>
+                          <TooltipTrigger
+                            onClick={() => setOpenSkillIndex(openSkillIndex === index ? null : index)}
+                            className="w-full h-[150px] flex items-center justify-center rounded-xl bg-[#232329] group">
+                            <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                              {item.icon}
+                            </div>
+                          </TooltipTrigger>
+                          <TooltipContent className="bg-white/10 text-white/80 border-0 shadow-lg">
+                            <p className="capitalize ">{item.name}</p>
+                          </TooltipContent>
+                        </Tooltip>
                       </li>
                     )
                   })}

@@ -15,7 +15,10 @@ const Home = () => {
             <h1 className="h1 mb-6">Hello I'm <br />
               <span className="text-accent">Moh. Alim Nafi' Adiansyah</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">I am an Informatics Engineering graduate from Universitas Maarif Hasyim Latif. Specializing in the MERN Stack (MongoDB, Express.js, React, Node.js) and holding a GPA of 3.54/4.00 , I possess a deep understanding of application and website development. I have been working as a Freelance Web Developer since 2022 , skilled in designing and developing various functional and responsive websites. My core technical skills include JavaScript, HTML/CSS, and SQL , and I am actively involved in an organization as the Communication and Information Division for Himatika Umaha
+            <p className="max-w-[500px] mb-9 text-white/80">Web Developer with experience since 2022, specializing in the MERN Stack and Next.js. Experienced in building functional, responsive, and scalable web applications.
+              <br />
+              <br />
+              In addition to development, I have hands-on experience in Manual Quality Control (QC) Testing, ensuring application quality through test case execution, bug identification, and collaboration with development teams. Proficient in JavaScript, HTML/CSS, SQL, and committed to delivering reliable and high-quality digital solutions.
             </p>
             {/* Button and Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8 ">
