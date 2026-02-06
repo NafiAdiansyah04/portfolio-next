@@ -3,26 +3,61 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    /* Mode Terang: Minimalis & Fresh */
+    --primary: #ffffff;
+    /* Background Utama */
+    --primary-text: #1a1a1b;
+    /* Text Utama (Charcoal) */
+    --accent: #4B70F5;
+    /* Warna Brand */
+    --accent-hover: #3b5ed1;
+    --secondary-bg: #bebebe;
+    /* Background Kartu (Biru sangat muda) */
+    --border-color: #e5e7eb;
+    /* Border soft */
+  }
+
+  .dark {
+    /* Mode Gelap: Premium Dark */
+    --primary: #1c1c22;
+    /* Background Utama */
+    --primary-text: #ffffff;
+    /* Text Utama */
+    --accent: #4B70F5;
+    /* Warna Brand */
+    --accent-hover: #4B70F5;
+    --secondary-bg: #27272c;
+    /* Background Kartu */
+    --border-color: #333339;
+    /* Border gelap */
+  }
+
   html {
     scrollbar-gutter: stable;
   }
+
   body {
-    @apply font-primary bg-primary text-white leading-loose;
+    @apply font-primary bg-primary text-primary-text leading-loose transition-colors duration-300;
   }
-  .h1{
+
+  .h1 {
     @apply text-[48px] xl:text-[80px] font-semibold leading-[1.1];
   }
-  .h1{
+
+  .h1 {
     @apply text-[36px] xl:text-[48px] font-semibold leading-[1.1];
   }
-  .h3{
+
+  .h3 {
     @apply text-[20px] xl:text-[24px] font-semibold leading-[1.1];
   }
-  .text-outline{
-  -webkit-text-stroke: 1px white
-}
-.text-outline-hover{
-  -webkit-text-stroke: 1px #4B70F5;
-}
-}
 
+  .text-outline {
+    -webkit-text-stroke: 1px var(--primary-text)
+  }
+
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #4B70F5;
+  }
+}

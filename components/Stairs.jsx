@@ -6,10 +6,10 @@ const stairAimation = {
     },
     animate: {
         top: "100%",
-},
-exit: {
-    top: ["100%","0%"],
-},
+    },
+    exit: {
+        top: ["100%", "0%"],
+    },
 };
 
 const reverseIndex = (index) => {
@@ -21,15 +21,15 @@ const Stairs = () => {
         <>
             {[...Array(6)].map((_, index) => {
                 return (
-                <motion.div 
-                    key={index}
-                    variants={stairAimation}
-                    initial="initial"
-                    animate="animate"
-                    exit="exit"
-                    transition={{ duration: 0.5, delay: reverseIndex(index) * 0.1, ease: "easeInOut" }}
-                    className="h-full w-full bg-white relative"
-                />
+                    <motion.div
+                        key={index}
+                        variants={stairAimation}
+                        initial="initial"
+                        animate="animate"
+                        exit="exit"
+                        transition={{ duration: 0.5, delay: reverseIndex(index) * 0.1, ease: "easeInOut" }}
+                        className="h-full w-full bg-primary-text relative"
+                    />
                 );
             })}
         </>

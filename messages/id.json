@@ -1,0 +1,330 @@
+{
+    "nav": {
+        "home": "Beranda",
+        "services": "Layanan",
+        "resume": "Resume",
+        "projects": "Proyek",
+        "contact": "Kontak",
+        "hireMe": "Rekrut saya"
+    },
+    "home": {
+        "role": "Pengembang Website",
+        "greeting": "Halo Saya",
+        "name": "Moh. Alim Nafi' Adiansyah",
+        "description": "Web Developer dengan pengalaman sejak 2022, berspesialisasi dalam MERN Stack dan Next.js. Berpengalaman dalam membangun aplikasi web yang fungsional, responsif, dan scalable.",
+        "descriptionPart2": "Selain pengembangan, saya memiliki pengalaman langsung dalam Manual Quality Control (QC) Testing, memastikan kualitas aplikasi melalui eksekusi test case, identifikasi bug, dan kolaborasi dengan tim pengembangan. Mahir dalam JavaScript, HTML/CSS, SQL, dan berkomitmen untuk memberikan solusi digital yang handal dan berkualitas tinggi.",
+        "downloadCV": "Unduh CV"
+    },
+    "services": {
+        "items": [
+            {
+                "num": "01",
+                "title": "Pengembangan Web",
+                "description": "Membangun website yang cepat, responsif, dan interaktif menggunakan teknologi modern seperti React, Node.js, dan Tailwind CSS untuk mendukung pertumbuhan bisnis digital Anda."
+            },
+            {
+                "num": "02",
+                "title": "Entri Data",
+                "description": "Menyediakan layanan entri data yang akurat, terstruktur, dan efisien untuk membantu bisnis mengorganisir dan mengelola informasi secara efektif."
+            },
+            {
+                "num": "03",
+                "title": "IT Support",
+                "description": "Memberikan bantuan teknis yang handal, termasuk pemeliharaan sistem, troubleshooting, dan optimasi infrastruktur untuk menjaga kelancaran operasional Anda."
+            },
+            {
+                "num": "04",
+                "title": "QC/QA Software",
+                "description": "Memastikan kualitas perangkat lunak melalui proses pengujian yang ketat, mengidentifikasi bug, dan memverifikasi bahwa aplikasi memenuhi persyaratan yang ditentukan sebelum deployment."
+            }
+        ]
+    },
+    "resume": {
+        "tabs": {
+            "experience": "Pengalaman",
+            "education": "Pendidikan",
+            "skills": "Keahlian",
+            "about": "Tentang Saya"
+        },
+        "about": {
+            "title": "Tentang Saya",
+            "desc": "Saya adalah web developer yang passionate dengan pengalaman lebih dari 2 tahun dalam membuat website yang dinamis dan responsif. Keahlian saya terletak pada pengembangan front-end, tetapi saya juga memiliki pemahaman yang kuat tentang teknologi back-end. Saya senang mempelajari hal-hal baru dan selalu mengikuti tren terbaru dalam pengembangan web.",
+            "info": [
+                {
+                    "fieldName": "Nama :",
+                    "fieldValue": "Moh. Alim Nafi' Adiansyah"
+                },
+                {
+                    "fieldName": "Telepon :",
+                    "fieldValue": "+62 857 4346 0518"
+                },
+                {
+                    "fieldName": "Pengalaman :",
+                    "fieldValue": "2+ Tahun"
+                },
+                {
+                    "fieldName": "Email :",
+                    "fieldValue": "nafiadiansyah24@gmail.com"
+                },
+                {
+                    "fieldName": "Freelance :",
+                    "fieldValue": "Tersedia"
+                },
+                {
+                    "fieldName": "Lokasi :",
+                    "fieldValue": "Sidoarjo, Jawa Timur"
+                },
+                {
+                    "fieldName": "Bahasa :",
+                    "fieldValue": "Indonesia, Inggris"
+                }
+            ]
+        },
+        "experience": {
+            "title": "Pengalaman Saya",
+            "desc": "Saya telah berkolaborasi dengan berbagai klien dan organisasi — dari bisnis kecil hingga perusahaan teknologi — berfokus pada membangun solusi web yang responsif, integrasi IoT, dan sistem digital yang efisien yang memberikan dampak nyata.",
+            "items": [
+                {
+                    "company": "PT. AZ Logistik Dot Com",
+                    "position": "QC/QA Software (Berbasis Proyek)",
+                    "time": "Januari 2026 – Sekarang",
+                    "sortDate": "2026-01",
+                    "desc": "Melakukan pengujian quality control dan quality assurance secara menyeluruh untuk aplikasi perangkat lunak logistik perusahaan. Mengidentifikasi bug, memverifikasi perbaikan, dan memastikan perangkat lunak memenuhi persyaratan yang ditentukan sebelum deployment."
+                },
+                {
+                    "company": "Argany Teknik",
+                    "position": "Web Developer (Berbasis Proyek)",
+                    "time": "Juni 2025 | Juni 2025",
+                    "sortDate": "2025-06",
+                    "desc": "Merancang dan mengembangkan website company profile yang responsif untuk layanan perbaikan HVAC dan elektronik. Fokus pada UI yang bersih dan performa cepat menggunakan React dan Tailwind CSS, meningkatkan kepercayaan pengguna dan konversi prospek."
+                },
+                {
+                    "company": "PT. AZ Logistik Dot Com",
+                    "position": "AI Operator Front-End Developer (Berbasis Proyek)",
+                    "time": "November 2025 – Desember 2025",
+                    "sortDate": "2025-11",
+                    "desc": "Slicing UI dari Figma, dan mengimplementasikan API dengan bantuan AI, serta membantu dalam proses bug fixing untuk aplikasi logistik internal perusahaan untuk meningkatkan efisiensi operasional."
+                },
+                {
+                    "company": "Asyila Majun",
+                    "position": "Web Developer (Berbasis Proyek)",
+                    "time": "Agustus 2024 | Agustus 2024",
+                    "sortDate": "2024-08",
+                    "desc": "Mengembangkan dan memelihara landing page perusahaan menggunakan React dan Next.js dengan Tailwind CSS. Fokus pada pembuatan desain yang modern dan responsif untuk meningkatkan keterlibatan pengguna dan mengoptimalkan visibilitas bisnis online. Berkolaborasi dengan tim lintas fungsi untuk memastikan integrasi desain dan fungsi yang lancar."
+                },
+                {
+                    "company": "PT. Presentologics",
+                    "position": "Full-Stack Web Developer (Studi Independen)",
+                    "time": "Januari 2024 – Juni 2024",
+                    "sortDate": "2024-01",
+                    "desc": "Berpartisipasi dalam program Studi Independen Kampus Merdeka di bawah PT. Presentologics. Membangun aplikasi web full-stack menggunakan React.js dan Node.js, mengimplementasikan RESTful API, dan berkolaborasi dengan mentor untuk mengikuti praktik terbaik dalam deployment dan version control."
+                },
+                {
+                    "company": "Freelance",
+                    "position": "Data Entry & Web Assistant",
+                    "time": "Juni 2022 – Agustus 2023",
+                    "sortDate": "2022-06",
+                    "desc": "Menangani tugas entri data dengan akurasi tinggi sambil membantu pengelolaan konten web dasar. Mengembangkan antarmuka web skala kecil untuk klien menggunakan HTML, CSS, dan JavaScript untuk mendukung alur kerja administratif mereka."
+                }
+            ]
+        },
+        "education": {
+            "title": "Pendidikan Saya",
+            "desc": "Saya memiliki latar belakang pendidikan yang kuat dalam ilmu komputer dan pengembangan web. Saya selalu ingin belajar keterampilan dan teknologi baru untuk meningkatkan pengetahuan dan keahlian saya.",
+            "items": [
+                {
+                    "institution": "Universitas Maarif Hasyim Latif",
+                    "position": "Sarjana Teknik Informatika",
+                    "time": "2021 - 2025"
+                },
+                {
+                    "institution": "SMK YPM 8 Sidoarjo",
+                    "position": "Sekolah kejuruan otomotif",
+                    "time": "2018 - 2021"
+                }
+            ]
+        },
+        "skills": {
+            "title": "Keahlian Saya",
+            "desc": "Saya memiliki berbagai keterampilan yang telah saya peroleh melalui pendidikan dan pengalaman kerja. Saya mahir dalam berbagai bahasa pemrograman dan framework, dan saya selalu ingin belajar keterampilan baru."
+        }
+    },
+    "projects": {
+        "liveProject": "Proyek Live",
+        "github": "GitHub",
+        "items": [
+            {
+                "num": "01",
+                "category": "Full Stack",
+                "title": "Wisata Wonders",
+                "desc": "Platform pariwisata berbasis web yang memungkinkan pengguna menjelajahi berbagai destinasi wisata, melihat informasi detail, dan merencanakan perjalanan dengan efisien. Dibangun dengan MERN stack (MongoDB, Express, React, Node.js) dan dirancang dengan UI responsif untuk pengalaman pengguna yang menarik.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "CSS3"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Express"
+                    },
+                    {
+                        "name": "MongoDB"
+                    }
+                ],
+                "img": "/assets/projects/porto-WW.webp",
+                "github": "https://github.com/NafiAdiansyah/wisata-wonders",
+                "live": "https://wisata-wonders.vercel.app/"
+            },
+            {
+                "num": "02",
+                "category": "Frontend",
+                "title": "Argany Teknik",
+                "desc": "Website company profile responsif untuk Argany Teknik, penyedia layanan perbaikan AC dan elektronik. Dibangun menggunakan React dan Tailwind CSS untuk memastikan desain yang modern, cepat dimuat, dan mobile-friendly yang menyoroti layanan dan informasi kontak perusahaan.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "React"
+                    }
+                ],
+                "img": "/assets/projects/porto-AT.webp",
+                "github": "https://github.com/NafiAdiansyah/argany-teknik",
+                "live": "https://www.arganyteknik.biz.id/"
+            },
+            {
+                "num": "03",
+                "category": "Full Stack IoT Dashboard",
+                "title": "Smart Chili Garden",
+                "desc": "Sistem monitoring dan kontrol berbasis IoT untuk perkebunan cabai. Dashboard menampilkan data kelembaban tanah secara real-time dan memungkinkan kontrol jarak jauh untuk sistem irigasi dan pestisida. Terintegrasi dengan ESP32, protokol MQTT, dan backend Node.js yang terhubung ke database MySQL.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "CSS3"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Express"
+                    },
+                    {
+                        "name": "MySQL"
+                    },
+                    {
+                        "name": "MQTT"
+                    },
+                    {
+                        "name": "Arduino"
+                    }
+                ],
+                "img": "/assets/projects/porto-SCG.webp",
+                "github": "https://github.com/NafiAdiansyah/Smart-Chili-Garden",
+                "live": "https://smart-chili-garden.vercel.app/"
+            },
+            {
+                "num": "04",
+                "category": "Frontend",
+                "title": "Asyila Majun",
+                "desc": "Landing page modern untuk Asyila Majun, bisnis yang berspesialisasi dalam penjualan kain pembersih industri yang terbuat dari kain daur ulang. Dikembangkan dengan React, Next.js, dan Tailwind CSS, fokus pada desain yang bersih, optimisasi SEO, dan presentasi produk yang jelas.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Next.js"
+                    }
+                ],
+                "img": "/assets/projects/porto-AM.webp",
+                "github": "https://github.com/NafiAdiansyah/new-asyila-majun",
+                "live": "https://new-asyila-majun.vercel.app/"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Mari bekerja sama",
+        "description": "Saya sedang mencari peluang baru, inbox saya selalu terbuka. Baik Anda memiliki pertanyaan atau hanya ingin menyapa, saya akan mencoba sebaik mungkin untuk menghubungi Anda kembali!",
+        "form": {
+            "firstname": "Nama depan",
+            "lastname": "Nama belakang",
+            "email": "Alamat email",
+            "phone": "Nomor telepon",
+            "selectService": "Pilih layanan",
+            "services": {
+                "webDev": "Pengembangan Web",
+                "dataEntry": "Entri Data",
+                "dataAnalysis": "Analisis Data",
+                "iot": "Pengembangan IoT"
+            },
+            "message": "Ketik pesan Anda di sini.",
+            "sendButton": "Kirim Pesan"
+        },
+        "info": [
+            {
+                "title": "Telepon",
+                "desc": "+62 857 4346 0518"
+            },
+            {
+                "title": "Email",
+                "desc": "nafiadiansyah24@gmail.com"
+            },
+            {
+                "title": "Lokasi",
+                "desc": "Sidoarjo, Jawa Timur"
+            }
+        ]
+    },
+    "stats": {
+        "items": [
+            {
+                "num": 2,
+                "text": "Tahun Pengalaman"
+            },
+            {
+                "num": 15,
+                "text": "Proyek Selesai"
+            },
+            {
+                "num": 10,
+                "text": "Teknologi Digunakan"
+            },
+            {
+                "num": 500,
+                "text": "Code Commits"
+            }
+        ]
+    }
+}

@@ -24,10 +24,13 @@ module.exports = {
     },
     extend: {
         colors: {
-            primary: '#1c1c22',
+            primary: 'var(--primary)',
+            'primary-text': 'var(--primary-text)',
+            'secondary-bg': 'var(--secondary-bg)',
+            'border-color': 'var(--border-color)',
             accent: {
-                DEFAULT: '#4B70F5',
-                hover: '#4B70F5',
+                DEFAULT: 'var(--accent)',
+                hover: 'var(--accent-hover)',
             },
         },
         keyframes: {
