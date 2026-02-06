@@ -1,0 +1,330 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "resume": "Resume",
+        "projects": "Projects",
+        "contact": "Contact",
+        "hireMe": "Hire me"
+    },
+    "home": {
+        "role": "Website Developer",
+        "greeting": "Hello I'm",
+        "name": "Moh. Alim Nafi' Adiansyah",
+        "description": "Web Developer with experience since 2022, specializing in the MERN Stack and Next.js. Experienced in building functional, responsive, and scalable web applications.",
+        "descriptionPart2": "In addition to development, I have hands-on experience in Manual Quality Control (QC) Testing, ensuring application quality through test case execution, bug identification, and collaboration with development teams. Proficient in JavaScript, HTML/CSS, SQL, and committed to delivering reliable and high-quality digital solutions.",
+        "downloadCV": "Download CV"
+    },
+    "services": {
+        "items": [
+            {
+                "num": "01",
+                "title": "Web Development",
+                "description": "Building fast, responsive, and interactive websites using modern technologies like React, Node.js, and Tailwind CSS to support your digital business growth."
+            },
+            {
+                "num": "02",
+                "title": "Data Entry",
+                "description": "Providing accurate, structured, and efficient data entry services to help businesses organize and manage information effectively."
+            },
+            {
+                "num": "03",
+                "title": "IT Support",
+                "description": "Delivering reliable technical assistance, including system maintenance, troubleshooting, and infrastructure optimization to keep your operations running smoothly."
+            },
+            {
+                "num": "04",
+                "title": "QC/QA Software",
+                "description": "Ensuring software quality through rigorous testing processes, identifying bugs, and verifying that applications meet specified requirements before deployment."
+            }
+        ]
+    },
+    "resume": {
+        "tabs": {
+            "experience": "Experience",
+            "education": "Education",
+            "skills": "Skills",
+            "about": "About Me"
+        },
+        "about": {
+            "title": "About Me",
+            "desc": "I am a passionate web developer with over 2 years of experience in creating dynamic and responsive websites. My expertise lies in front-end development, but I also have a strong understanding of back-end technologies. I love to learn new things and stay updated with the latest trends in web development.",
+            "info": [
+                {
+                    "fieldName": "Name :",
+                    "fieldValue": "Moh. Alim Nafi' Adiansyah"
+                },
+                {
+                    "fieldName": "Phone :",
+                    "fieldValue": "+62 857 4346 0518"
+                },
+                {
+                    "fieldName": "Experience :",
+                    "fieldValue": "2+ Years"
+                },
+                {
+                    "fieldName": "Email :",
+                    "fieldValue": "nafiadiansyah24@gmail.com"
+                },
+                {
+                    "fieldName": "Freelance :",
+                    "fieldValue": "Available"
+                },
+                {
+                    "fieldName": "Location :",
+                    "fieldValue": "Sidoarjo, East Java"
+                },
+                {
+                    "fieldName": "Languages :",
+                    "fieldValue": "Indonesian, English"
+                }
+            ]
+        },
+        "experience": {
+            "title": "My Experience",
+            "desc": "I have collaborated with a range of clients and organizations — from small businesses to tech companies — focusing on building responsive web solutions, IoT integrations, and efficient digital systems that deliver real impact.",
+            "items": [
+                {
+                    "company": "PT. AZ Logistik Dot Com",
+                    "position": "QC/QA Software (Project Based)",
+                    "time": "January 2026 – Now",
+                    "sortDate": "2026-01",
+                    "desc": "Conducting thorough quality control and assurance testing for the company's logistics software applications. Identifying bugs, verifying fixes, and ensuring that the software meets specified requirements before deployment."
+                },
+                {
+                    "company": "Argany Teknik",
+                    "position": "Web Developer (Project Based)",
+                    "time": "June 2025 | June 2025",
+                    "sortDate": "2025-06",
+                    "desc": "Designed and developed a responsive company profile website for an HVAC and electronics repair service. Focused on a clean UI and fast performance using React and Tailwind CSS, improving user trust and lead conversion."
+                },
+                {
+                    "company": "PT. AZ Logistik Dot Com",
+                    "position": "AI Operator Front-End Developer (Project Based)",
+                    "time": "November 2025 – December 2025",
+                    "sortDate": "2025-11",
+                    "desc": "Slicing UI from figma, and implementing API with the help of AI, as well as helping in the bug fixing process for the company's internal logistics application to improve operational efficiency."
+                },
+                {
+                    "company": "Asyila Majun",
+                    "position": "Web Developer (Project Based)",
+                    "time": "August 2024 | August 2024",
+                    "sortDate": "2024-08",
+                    "desc": "Developed and maintained the company's landing page using React and Next.js with Tailwind CSS. Focused on creating a modern, responsive design to enhance user engagement and optimize business visibility online. Collaborated with cross-functional teams to ensure seamless integration of design and functionality."
+                },
+                {
+                    "company": "PT. Presentologics",
+                    "position": "Full-Stack Web Developer (Independent Study)",
+                    "time": "January 2024 – June 2024",
+                    "sortDate": "2024-01",
+                    "desc": "Participated in the Kampus Merdeka Independent Study program under PT. Presentologics. Built full-stack web applications using React.js and Node.js, implemented RESTful APIs, and collaborated with mentors to follow best practices in deployment and version control."
+                },
+                {
+                    "company": "Freelance",
+                    "position": "Data Entry & Web Assistant",
+                    "time": "June 2022 – August 2023",
+                    "sortDate": "2022-06",
+                    "desc": "Handled data entry tasks with high accuracy while assisting in basic web content management. Developed small-scale web interfaces for clients using HTML, CSS, and JavaScript to support their administrative workflows."
+                }
+            ]
+        },
+        "education": {
+            "title": "My Education",
+            "desc": "I have a strong educational background in computer science and web development. I am always eager to learn new skills and technologies to enhance my knowledge and expertise.",
+            "items": [
+                {
+                    "institution": "Universitas Maarif Hasyim Latif",
+                    "position": "Bachelor of Computer Science",
+                    "time": "2021 - 2025"
+                },
+                {
+                    "institution": "SMK YPM 8 Sidoarjo",
+                    "position": "Automotive vocational school",
+                    "time": "2018 - 2021"
+                }
+            ]
+        },
+        "skills": {
+            "title": "My Skills",
+            "desc": "I have a diverse set of skills that I have acquired through my education and work experience. I am proficient in a variety of programming languages and frameworks, and I am always eager to learn new skills."
+        }
+    },
+    "projects": {
+        "liveProject": "Live Project",
+        "github": "GitHub",
+        "items": [
+            {
+                "num": "01",
+                "category": "Full Stack",
+                "title": "Wisata Wonders",
+                "desc": "A web-based tourism platform that allows users to explore various travel destinations, view detailed information, and plan trips efficiently. Built with the MERN stack (MongoDB, Express, React, Node.js) and designed with responsive UI for an engaging user experience.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "CSS3"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Express"
+                    },
+                    {
+                        "name": "MongoDB"
+                    }
+                ],
+                "img": "/assets/projects/porto-WW.webp",
+                "github": "https://github.com/NafiAdiansyah/wisata-wonders",
+                "live": "https://wisata-wonders.vercel.app/"
+            },
+            {
+                "num": "02",
+                "category": "Frontend",
+                "title": "Argany Teknik",
+                "desc": "A responsive company profile website for Argany Teknik, an air conditioner and electronic repair service provider. Built using React and Tailwind CSS to ensure a modern, fast-loading, and mobile-friendly design that highlights the company's services and contact information.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "React"
+                    }
+                ],
+                "img": "/assets/projects/porto-AT.webp",
+                "github": "https://github.com/NafiAdiansyah/argany-teknik",
+                "live": "https://www.arganyteknik.biz.id/"
+            },
+            {
+                "num": "03",
+                "category": "Full Stack IoT Dashboard",
+                "title": "Smart Chili Garden",
+                "desc": "An IoT-based monitoring and control system for chili plantations. The dashboard displays real-time soil moisture data and allows remote control of irrigation and pesticide systems. Integrated with ESP32, MQTT protocol, and a Node.js backend connected to a MySQL database.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "CSS3"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Express"
+                    },
+                    {
+                        "name": "MySQL"
+                    },
+                    {
+                        "name": "MQTT"
+                    },
+                    {
+                        "name": "Arduino"
+                    }
+                ],
+                "img": "/assets/projects/porto-SCG.webp",
+                "github": "https://github.com/NafiAdiansyah/Smart-Chili-Garden",
+                "live": "https://smart-chili-garden.vercel.app/"
+            },
+            {
+                "num": "04",
+                "category": "Frontend",
+                "title": "Asyila Majun",
+                "desc": "A modern landing page for Asyila Majun, a business specializing in selling industrial cleaning cloths made from recycled fabrics. Developed with React, Next.js, and Tailwind CSS, focusing on clean design, SEO optimization, and clear product presentation.",
+                "stack": [
+                    {
+                        "name": "HTML5"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Next.js"
+                    }
+                ],
+                "img": "/assets/projects/porto-AM.webp",
+                "github": "https://github.com/NafiAdiansyah/new-asyila-majun",
+                "live": "https://new-asyila-majun.vercel.app/"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Let's work together",
+        "description": "I am currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+        "form": {
+            "firstname": "Firstname",
+            "lastname": "Lastname",
+            "email": "Email address",
+            "phone": "Phone number",
+            "selectService": "Select a service",
+            "services": {
+                "webDev": "Web Development",
+                "dataEntry": "Data Entry",
+                "dataAnalysis": "Data Analysis",
+                "iot": "IoT Development"
+            },
+            "message": "Type your message here.",
+            "sendButton": "Send Message"
+        },
+        "info": [
+            {
+                "title": "Phone",
+                "desc": "+62 857 4346 0518"
+            },
+            {
+                "title": "Email",
+                "desc": "nafiadiansyah24@gmail.com"
+            },
+            {
+                "title": "Location  ",
+                "desc": "Sidoarjo, East Java"
+            }
+        ]
+    },
+    "stats": {
+        "items": [
+            {
+                "num": 2,
+                "text": "Years of Experience"
+            },
+            {
+                "num": 15,
+                "text": "Projects Completed"
+            },
+            {
+                "num": 10,
+                "text": "Technologies Used"
+            },
+            {
+                "num": 500,
+                "text": "Code Commits"
+            }
+        ]
+    }
+}
