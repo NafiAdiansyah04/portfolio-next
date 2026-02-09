@@ -48,7 +48,7 @@
         },
         "about": {
             "title": "Tentang Saya",
-            "desc": "Saya adalah web developer yang passionate dengan pengalaman lebih dari 2 tahun dalam membuat website yang dinamis dan responsif. Keahlian saya terletak pada pengembangan front-end, tetapi saya juga memiliki pemahaman yang kuat tentang teknologi back-end. Saya senang mempelajari hal-hal baru dan selalu mengikuti tren terbaru dalam pengembangan web.",
+            "desc": "Saya adalah Web Developer dan QA Engineer yang passionate dengan pengalaman lebih dari 2 tahun dalam membuat website yang dinamis dan responsif. Keahlian saya terletak pada pengembangan front-end, tetapi saya juga memiliki pemahaman yang kuat tentang teknologi back-end dan juga QA Engineer. Saya senang mempelajari hal-hal baru dan selalu mengikuti tren terbaru dalam pengembangan web.",
             "info": [
                 {
                     "fieldName": "Nama :",
@@ -157,7 +157,7 @@
                 "num": "01",
                 "category": "Full Stack",
                 "title": "Wisata Wonders",
-                "desc": "Platform pariwisata berbasis web yang memungkinkan pengguna menjelajahi berbagai destinasi wisata, melihat informasi detail, dan merencanakan perjalanan dengan efisien. Dibangun dengan MERN stack (MongoDB, Express, React, Node.js) dan dirancang dengan UI responsif untuk pengalaman pengguna yang menarik.",
+                "desc": "Platform pariwisata berbasis web yang memungkinkan pengguna menjelajahi berbagai destinasi wisata, melihat informasi detail tentang destinasi wisata tersebut dan juga event wisata yang akan datang. Dibangun dengan MERN stack (MongoDB, Express, React, Node.js) dan dirancang dengan UI responsif untuk pengalaman pengguna yang menarik.",
                 "stack": [
                     {
                         "name": "HTML5"
@@ -247,7 +247,7 @@
                 "num": "04",
                 "category": "Frontend",
                 "title": "Asyila Majun",
-                "desc": "Landing page modern untuk Asyila Majun, bisnis yang berspesialisasi dalam penjualan kain pembersih industri yang terbuat dari kain daur ulang. Dikembangkan dengan React, Next.js, dan Tailwind CSS, fokus pada desain yang bersih, optimisasi SEO, dan presentasi produk yang jelas.",
+                "desc": "Website company profil modern untuk Asyila Majun, bisnis yang berspesialisasi dalam penjualan kain pembersih industri yang terbuat dari kain daur ulang. Dikembangkan dengan React, Next.js, dan Tailwind CSS, fokus pada desain yang bersih, optimisasi SEO, dan presentasi produk yang jelas.",
                 "stack": [
                     {
                         "name": "HTML5"
@@ -322,7 +322,7 @@
                 "text": "Teknologi Digunakan"
             },
             {
-                "num": 500,
+                "num": 5000,
                 "text": "Code Commits"
             }
         ]

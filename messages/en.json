@@ -48,7 +48,7 @@
         },
         "about": {
             "title": "About Me",
-            "desc": "I am a passionate web developer with over 2 years of experience in creating dynamic and responsive websites. My expertise lies in front-end development, but I also have a strong understanding of back-end technologies. I love to learn new things and stay updated with the latest trends in web development.",
+            "desc": "I am a passionate Web Developer and QA Engineer with over 2 years of experience in creating dynamic and responsive websites. My expertise lies in front-end development, but I also have a strong understanding of back-end technologies and QA Engineer. I love to learn new things and stay updated with the latest trends in web development.",
             "info": [
                 {
                     "fieldName": "Name :",
@@ -157,7 +157,7 @@
                 "num": "01",
                 "category": "Full Stack",
                 "title": "Wisata Wonders",
-                "desc": "A web-based tourism platform that allows users to explore various travel destinations, view detailed information, and plan trips efficiently. Built with the MERN stack (MongoDB, Express, React, Node.js) and designed with responsive UI for an engaging user experience.",
+                "desc": "A web-based tourism platform that allows users to explore various travel destinations, view detailed information about the destination and also upcoming tourism events. Built with the MERN stack (MongoDB, Express, React, Node.js) and designed with responsive UI for an engaging user experience.",
                 "stack": [
                     {
                         "name": "HTML5"
@@ -247,7 +247,7 @@
                 "num": "04",
                 "category": "Frontend",
                 "title": "Asyila Majun",
-                "desc": "A modern landing page for Asyila Majun, a business specializing in selling industrial cleaning cloths made from recycled fabrics. Developed with React, Next.js, and Tailwind CSS, focusing on clean design, SEO optimization, and clear product presentation.",
+                "desc": "A modern company profile website for Asyila Majun, a business specializing in selling industrial cleaning cloths made from recycled fabrics. Developed with React, Next.js, and Tailwind CSS, focusing on clean design, SEO optimization, and clear product presentation.",
                 "stack": [
                     {
                         "name": "HTML5"
@@ -322,7 +322,7 @@
                 "text": "Technologies Used"
             },
             {
-                "num": 500,
+                "num": 5000,
                 "text": "Code Commits"
             }
         ]

@@ -30,7 +30,7 @@ export const MobileNav = () => {
                 <CiMenuFries className="text-[32px] text-accent" />
             </SheetTrigger>
             <SheetContent side="right" className="flex flex-col">
-                <div className="mt-32 mb-20 text-center text-2xl">
+                <div className="mt-32 mb-15 text-center text-2xl">
                     <Link href={`/${locale}`} onClick={() => setIsOpen(false)}>
                         <h1 className="text-4xl font-semibold mb-8">Nafi'<span className="text-accent">.</span></h1>
                     </Link>
