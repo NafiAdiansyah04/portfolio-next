@@ -19,8 +19,8 @@ export const Photo = () => {
             opacity: 1,
             transition: { duration: 0.4, delay: 2.4, ease: "easeInOut" }
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] dark:mix-blend-lighten absolute">
-          <Image src="/assets/photo.png" priority quality={100} fill alt="" className="object-contain" />
+          className="w-[260px] h-[260px] xl:w-[450px] xl:h-[450px] dark:mix-blend-lighten absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <Image src="/assets/Profile.png" priority quality={100} fill alt="" className="object-contain" />
         </motion.div>
         {/* Circle */}
         <motion.svg
