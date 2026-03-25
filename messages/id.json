@@ -87,7 +87,7 @@
                 {
                     "company": "PT. AZ Logistik Dot Com",
                     "position": "QC/QA Software (Berbasis Proyek)",
-                    "time": "Januari 2026 – Sekarang",
+                    "time": "Januari 2026 – Februari 2026",
                     "sortDate": "2026-01",
                     "desc": "Melakukan pengujian quality control dan quality assurance secara menyeluruh untuk aplikasi perangkat lunak logistik perusahaan. Mengidentifikasi bug, memverifikasi perbaikan, dan memastikan perangkat lunak memenuhi persyaratan yang ditentukan sebelum deployment."
                 },
@@ -322,7 +322,7 @@
                 "text": "Teknologi Digunakan"
             },
             {
-                "num": 5000,
+                "num": 15000,
                 "text": "Code Commits"
             }
         ]

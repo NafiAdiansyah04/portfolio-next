@@ -87,7 +87,7 @@
                 {
                     "company": "PT. AZ Logistik Dot Com",
                     "position": "QC/QA Software (Project Based)",
-                    "time": "January 2026 – Now",
+                    "time": "January 2026 – February 2026",
                     "sortDate": "2026-01",
                     "desc": "Conducting thorough quality control and assurance testing for the company's logistics software applications. Identifying bugs, verifying fixes, and ensuring that the software meets specified requirements before deployment."
                 },
@@ -322,7 +322,7 @@
                 "text": "Technologies Used"
             },
             {
-                "num": 5000,
+                "num": 15000,
                 "text": "Code Commits"
             }
         ]
