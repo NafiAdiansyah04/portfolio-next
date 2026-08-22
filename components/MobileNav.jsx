@@ -26,13 +26,13 @@ export const MobileNav = () => {
 
     return (
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger className="flex items-center justify-center rounded-md bg-secondary-bg w-12 h-12 hover:bg-accent/20 transition-all">
-                <CiMenuFries className="text-[32px] text-accent" />
+            <SheetTrigger className="sku-raised flex items-center justify-center rounded-xl w-12 h-12 transition-all duration-150 hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[inset_0_3px_6px_rgba(0,0,0,0.55)]">
+                <CiMenuFries className="text-[28px] text-accent" />
             </SheetTrigger>
-            <SheetContent side="right" className="flex flex-col">
+            <SheetContent side="right" className="sku-sheet flex flex-col">
                 <div className="mt-32 mb-15 text-center text-2xl">
                     <Link href={`/${locale}`} onClick={() => setIsOpen(false)}>
-                        <h1 className="text-4xl font-semibold mb-8">Nafi'<span className="text-accent">.</span></h1>
+                        <h1 className="text-4xl font-semibold mb-8 sku-emboss">Nafi'<span className="text-accent">.</span></h1>
                     </Link>
                 </div>
 
@@ -52,7 +52,11 @@ export const MobileNav = () => {
                                 key={index}
                                 href={localizedPath}
                                 onClick={() => setIsOpen(false)}
-                                className={`${isActive && "text-accent border-b-2 border-accent"} capitalize text-xl hover:text-accent transition-all`}>
+                                className={`${
+                                    isActive
+                                        ? "text-accent sku-emboss drop-shadow-[0_0_8px_rgba(75,112,245,0.6)] border-b-2 border-accent"
+                                        : "text-primary-text/80 hover:text-accent"
+                                } capitalize text-xl transition-all duration-200`}>
                                 {t(link.name)}
                             </Link>
                         );

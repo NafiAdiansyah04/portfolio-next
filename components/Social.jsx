@@ -13,7 +13,7 @@ const Social = ({ containerStyles, iconStyles }) => {
         <a
           key={index}
           href={item.path}
-          className={iconStyles}
+          className={`sku-circle-btn ${iconStyles}`}
           target="_blank"
           rel="noopener noreferrer"
         >

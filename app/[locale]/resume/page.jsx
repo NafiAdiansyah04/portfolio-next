@@ -3,8 +3,8 @@
 import { useState } from "react";
 import { useTranslations } from 'next-intl';
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress, SiMqtt, SiMysql, SiArduino } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaGitAlt, FaRobot } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress, SiMqtt, SiMysql, SiArduino, SiFlutter, SiCpanel } from "react-icons/si";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@components/ui/tooltip";
@@ -39,6 +39,10 @@ const Resume = () => {
     { icon: <SiExpress />, name: "Express.js" },
     { icon: <SiMongodb />, name: "MongoDB" },
     { icon: <SiMysql />, name: "MySQL" },
+    { icon: <SiFlutter />, name: "Flutter" },
+    { icon: <FaGitAlt />, name: "Git / GitHub" },
+    { icon: <SiCpanel />, name: "cPanel" },
+    { icon: <FaRobot />, name: "AI-Assisted Dev" },
     { icon: <SiMqtt />, name: "MQTT" },
     { icon: <SiArduino />, name: "Arduino" }
   ];
@@ -62,17 +66,18 @@ const Resume = () => {
             {/* Experience */}
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold text-primary-text">{experienceData.title}</h3>
-                <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0">{experienceData.desc}</p>
+                <h3 className="text-4xl font-bold text-primary-text sku-emboss">{experienceData.title}</h3>
+                <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0 sku-engrave">{experienceData.desc}</p>
                 <ScrollArea className="h-[400px]">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                     {sortedExperienceItems.map((item, index) => {
                       return (
-                        <li key={index} className="bg-secondary-bg h-auto py-6 px-10 flex flex-col justify-start lg:items-start gap-3 rounded-xl">
-                          <span className="text-accent text-sm font-semibold whitespace-nowrap overflow-hidden text-ellipsis">{item.time}</span>
-                          <h3 className="text-xl h-[80px] text-center lg:text-left font-bold line-clamp-3">{item.position}</h3>
+                        <li key={index} className="sku-panel h-auto py-6 px-10 flex flex-col justify-start lg:items-start gap-3">
+                          <span className="text-accent text-sm font-semibold whitespace-nowrap overflow-hidden text-ellipsis sku-emboss">{item.time}</span>
+                          <h3 className="text-xl h-[80px] text-center lg:text-left font-bold line-clamp-3 sku-emboss">{item.position}</h3>
                           <div className="flex items-center gap-3">
-                            <span className="w-[6px] h-[6px] bg-accent rounded-full flex-shrink-0"></span>
+                            <span className="w-[6px] h-[6px] bg-accent rounded-full flex-shrink-0
+                              shadow-[0_0_6px_rgba(75,112,245,0.7)]"></span>
                             <p className="text-primary-text/60 font-medium">{item.company}</p>
                           </div>
                           <p className="text-primary-text/60 text-sm leading-relaxed">{item.desc}</p>
@@ -86,17 +91,18 @@ const Resume = () => {
             {/* Education */}
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold text-primary-text">{educationData.title}</h3>
-                <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0">{educationData.desc}</p>
+                <h3 className="text-4xl font-bold text-primary-text sku-emboss">{educationData.title}</h3>
+                <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0 sku-engrave">{educationData.desc}</p>
                 <ScrollArea className="h-[400px]">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] items-start">
                     {educationData.items.map((item, index) => {
                       return (
-                        <li key={index} className="bg-secondary-bg h-auto py-6 px-10 flex flex-col justify-start items-center lg:items-start gap-3 rounded-xl">
-                          <span className="text-accent text-sm font-semibold">{item.time}</span>
-                          <h3 className="text-xl h-[72px] text-center lg:text-left font-bold line-clamp-3">{item.position}</h3>
+                        <li key={index} className="sku-panel h-auto py-6 px-10 flex flex-col justify-start items-center lg:items-start gap-3">
+                          <span className="text-accent text-sm font-semibold sku-emboss">{item.time}</span>
+                          <h3 className="text-xl h-[72px] text-center lg:text-left font-bold line-clamp-3 sku-emboss">{item.position}</h3>
                           <div className="flex items-start gap-3">
-                            <span className="w-[6px] h-[6px] bg-accent rounded-full flex-shrink-0 mt-1.5"></span>
+                            <span className="w-[6px] h-[6px] bg-accent rounded-full flex-shrink-0 mt-1.5
+                              shadow-[0_0_6px_rgba(75,112,245,0.7)]"></span>
                             <p className="text-primary-text/60 font-medium line-clamp-2">{item.institution}</p>
                           </div>
                         </li>
@@ -110,8 +116,8 @@ const Resume = () => {
             <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                  <h3 className="text-4xl font-bold text-primary-text">{skillsData.title}</h3>
-                  <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0">{skillsData.desc}</p>
+                  <h3 className="text-4xl font-bold text-primary-text sku-emboss">{skillsData.title}</h3>
+                  <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0 sku-engrave">{skillsData.desc}</p>
                 </div>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                   {skillList.map((item, index) => {
@@ -120,8 +126,8 @@ const Resume = () => {
                         <Tooltip open={openSkillIndex === index} onOpenChange={(isOpen) => setOpenSkillIndex(isOpen ? index : null)}>
                           <TooltipTrigger
                             onClick={() => setOpenSkillIndex(openSkillIndex === index ? null : index)}
-                            className="w-full h-[150px] flex items-center justify-center rounded-xl bg-secondary-bg group">
-                            <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                            className="sku-skill-cell w-full h-[150px] flex items-center justify-center rounded-xl group">
+                            <div className="text-6xl group-hover:text-accent transition-all duration-300 sku-emboss">
                               {item.icon}
                             </div>
                           </TooltipTrigger>
@@ -138,14 +144,14 @@ const Resume = () => {
             {/* About */}
             <TabsContent value="about" className="w-full text-center xl:text-left">
               <div className="flex flex-col gap-[30px]">
-                <h3 className="text-4xl font-bold text-primary-text">{about.title}</h3>
-                <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0">{about.desc}</p>
+                <h3 className="text-4xl font-bold text-primary-text sku-emboss">{about.title}</h3>
+                <p className="max-w-[600px] text-primary-text/60 mx-auto xl:mx-0 sku-engrave">{about.desc}</p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
                     return (
                       <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
-                        <span className="text-primary-text/60">{item.fieldName}</span>
-                        <span className="text-lg text-primary-text">{item.fieldValue}</span>
+                        <span className="text-primary-text/60 sku-engrave">{item.fieldName}</span>
+                        <span className="text-lg text-primary-text sku-emboss">{item.fieldValue}</span>
                       </li>
                     )
                   })}

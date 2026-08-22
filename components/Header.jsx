@@ -17,13 +17,12 @@ const Header = () => {
   const locale = params.locale || 'id';
 
   return (
-    <header className="py-8 xl:py-12 text-primary-text">
-      <div className=" container mx-auto flex justify-between items-center">
+    <header className="sku-header py-8 xl:py-12 text-primary-text sticky top-0 z-50 backdrop-blur-sm">
+      <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href={`/${locale}`}>
-          <h1 className="text-4xl font-semibold">Nafi'<span className="text-accent">.</span></h1>
+          <h1 className="text-4xl font-semibold sku-emboss">Nafi'<span className="text-accent">.</span></h1>
         </Link>
-
 
         {/* Navigation */}
         <div className="hidden xl:flex items-center gap-8">

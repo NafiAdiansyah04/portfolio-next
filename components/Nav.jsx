@@ -27,7 +27,11 @@ const Nav = () => {
                     <Link
                         key={index}
                         href={localizedPath}
-                        className={`${isActive && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`}>
+                        className={`${
+                            isActive
+                                ? "text-accent sku-emboss border-b-2 border-accent drop-shadow-[0_0_8px_rgba(75,112,245,0.6)]"
+                                : "text-primary-text/80 hover:text-accent hover:drop-shadow-[0_0_6px_rgba(75,112,245,0.4)]"
+                        } capitalize font-medium transition-all duration-200 hover:-translate-y-0.5`}>
                         {t(link.name)}
                     </Link>
                 );

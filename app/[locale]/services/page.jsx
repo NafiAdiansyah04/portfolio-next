@@ -24,20 +24,20 @@ const Services = () => {
         >
           {services.map((service, index) => {
             return (
-              <div key={index} className="flex-1 flex flex-col gap-6 group">
+              <div key={index} className="sku-panel relative overflow-hidden flex-1 flex flex-col gap-6 group p-8 transition-all duration-300 hover:shadow-[inset_0_1px_4px_rgba(0,0,0,0.5),0_4px_20px_rgba(75,112,245,0.15)]">
                 <div className="w-full flex justify-between items-center">
-                  <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}
+                  <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500 sku-emboss">{service.num}
                   </div>
                   <Link href={service.href || "#"}
-                    className="w-[70px] h-[70px] rounded-full bg-secondary-bg dark:bg-white group-hover:bg-accent transition-all duration-500 flex items-center justify-center hover:-rotate-45"
+                    className="sku-circle-btn w-[70px] h-[70px] rounded-full group-hover:bg-accent transition-all duration-500 flex items-center justify-center hover:-rotate-45"
                   >
-                    <BsArrowDownRight className="text-3xl text-primary" />
+                    <BsArrowDownRight className="text-3xl text-primary-text group-hover:text-white" />
                   </Link>
 
                 </div>
-                <h2 className="text-[42px] font-bold leading-none text-primary-text group-hover:text-accent transition-all duration-500">{service.title}</h2>
-                <p className="text-primary-text/60">{service.description}</p>
-                <div className="border-b border-primary-text/20 w-full mt-auto"></div>
+                <h2 className="text-[42px] font-bold leading-none text-primary-text group-hover:text-accent transition-all duration-500 sku-emboss">{service.title}</h2>
+                <p className="text-primary-text/60 sku-engrave">{service.description}</p>
+                <div className="sku-divider w-full mt-auto"></div>
               </div>
 
             )
