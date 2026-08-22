@@ -8,11 +8,11 @@
         "hireMe": "Rekrut saya"
     },
     "home": {
-        "role": "Pengembang Website",
+        "role": "Fullstack Developer & QC Engineer",
         "greeting": "Halo Saya",
         "name": "Moh. Alim Nafi' Adiansyah",
-        "description": "Web Developer dengan pengalaman sejak 2022, berspesialisasi dalam MERN Stack dan Next.js. Berpengalaman dalam membangun aplikasi web yang fungsional, responsif, dan scalable.",
-        "descriptionPart2": "Selain pengembangan, saya memiliki pengalaman langsung dalam Manual Quality Control (QC) Testing, memastikan kualitas aplikasi melalui eksekusi test case, identifikasi bug, dan kolaborasi dengan tim pengembangan. Mahir dalam JavaScript, HTML/CSS, SQL, dan berkomitmen untuk memberikan solusi digital yang handal dan berkualitas tinggi.",
+        "description": "Lulusan S1 Teknik Informatika (IPK 3,54) dengan pengalaman profesional sebagai Fullstack Developer dan QC Software Engineer. Berpengalaman dalam merancang, mengembangkan, dan memelihara aplikasi web berskala enterprise (multi-tenant SaaS) menggunakan MERN Stack (MongoDB, Express.js, React, Node.js) dan Tailwind CSS.",
+        "descriptionPart2": "Terbiasa menerapkan metode AI-assisted development untuk mempercepat siklus coding dan optimasi fitur, yang dipadukan dengan ketelitian tinggi dalam pengujian modul (quality control/debugging). Berkomitmen menghasilkan kode yang bersih, efisien, dan berdampak langsung pada kebutuhan bisnis pengguna.",
         "downloadCV": "Unduh CV"
     },
     "services": {
@@ -48,7 +48,7 @@
         },
         "about": {
             "title": "Tentang Saya",
-            "desc": "Saya adalah Web Developer dan QA Engineer yang passionate dengan pengalaman lebih dari 2 tahun dalam membuat website yang dinamis dan responsif. Keahlian saya terletak pada pengembangan front-end, tetapi saya juga memiliki pemahaman yang kuat tentang teknologi back-end dan juga QA Engineer. Saya senang mempelajari hal-hal baru dan selalu mengikuti tren terbaru dalam pengembangan web.",
+            "desc": "Saya adalah Fullstack Developer dan QC Software Engineer dengan pengalaman dalam merancang, mengembangkan, dan memelihara aplikasi web berskala enterprise (multi-tenant SaaS). Mahir dalam MERN Stack, Next.js, AI-assisted development, serta pengujian kualitas perangkat lunak secara komprehensif.",
             "info": [
                 {
                     "fieldName": "Nama :",
@@ -82,71 +82,59 @@
         },
         "experience": {
             "title": "Pengalaman Saya",
-            "desc": "Saya telah berkolaborasi dengan berbagai klien dan organisasi — dari bisnis kecil hingga perusahaan teknologi — berfokus pada membangun solusi web yang responsif, integrasi IoT, dan sistem digital yang efisien yang memberikan dampak nyata.",
+            "desc": "Pengalaman profesional saya mencakup pengembangan platform multi-tenant SaaS enterprise, pengujian kualitas perangkat lunak (QC/QA), pengoperasian sistem berbasis AI, serta proyek web dan IoT responsif.",
             "items": [
                 {
-                    "company": "PT. AZ Logistik Dot Com",
-                    "position": "QC/QA Software (Berbasis Proyek)",
-                    "time": "Januari 2026 – Februari 2026",
-                    "sortDate": "2026-01",
-                    "desc": "Melakukan pengujian quality control dan quality assurance secara menyeluruh untuk aplikasi perangkat lunak logistik perusahaan. Mengidentifikasi bug, memverifikasi perbaikan, dan memastikan perangkat lunak memenuhi persyaratan yang ditentukan sebelum deployment."
-                },
-                {
-                    "company": "Argany Teknik",
-                    "position": "Web Developer (Berbasis Proyek)",
-                    "time": "Juni 2025 | Juni 2025",
-                    "sortDate": "2025-06",
-                    "desc": "Merancang dan mengembangkan website company profile yang responsif untuk layanan perbaikan HVAC dan elektronik. Fokus pada UI yang bersih dan performa cepat menggunakan React dan Tailwind CSS, meningkatkan kepercayaan pengguna dan konversi prospek."
+                    "company": "PlexSeller",
+                    "position": "Fullstack Developer",
+                    "time": "April 2026 – Sekarang",
+                    "sortDate": "2026-04",
+                    "desc": "Mengembangkan dan memelihara PlexSeller, platform bisnis all-in-one multi-tenant (WMS, POS Kasir, Omnichannel, Manufaktur, Akuntansi). Menerapkan metode AI-assisted development, merancang fitur baru, serta melakukan bug fixing dan pengujian komprehensif."
                 },
                 {
                     "company": "PT. AZ Logistik Dot Com",
-                    "position": "AI Operator Front-End Developer (Berbasis Proyek)",
-                    "time": "November 2025 – Desember 2025",
+                    "position": "Operator AI & QC Software",
+                    "time": "November 2025 – Februari 2026",
                     "sortDate": "2025-11",
-                    "desc": "Slicing UI dari Figma, dan mengimplementasikan API dengan bantuan AI, serta membantu dalam proses bug fixing untuk aplikasi logistik internal perusahaan untuk meningkatkan efisiensi operasional."
+                    "desc": "Berkontribusi dalam pengembangan dan pemeliharaan aplikasi logistik internasional (Muatpartsplus). Melakukan pengujian fungsional dan pelaporan bug secara sistematis pada modul kritis serta bekerja sama dengan tim dev untuk fixing bug dan optimasi performa."
                 },
                 {
-                    "company": "Asyila Majun",
-                    "position": "Web Developer (Berbasis Proyek)",
-                    "time": "Agustus 2024 | Agustus 2024",
-                    "sortDate": "2024-08",
-                    "desc": "Mengembangkan dan memelihara landing page perusahaan menggunakan React dan Next.js dengan Tailwind CSS. Fokus pada pembuatan desain yang modern dan responsif untuk meningkatkan keterlibatan pengguna dan mengoptimalkan visibilitas bisnis online. Berkolaborasi dengan tim lintas fungsi untuk memastikan integrasi desain dan fungsi yang lancar."
+                    "company": "Freelance",
+                    "position": "Web Developer",
+                    "time": "Juni 2024 – Sekarang",
+                    "sortDate": "2024-06",
+                    "desc": "Merancang dan mengimplementasikan situs web responsif seperti profil perusahaan dan portofolio online menggunakan Tailwind CSS dan React.js, serta membangun sistem manajemen inventaris terintegrasi basis data SQL."
                 },
                 {
                     "company": "PT. Presentologics",
                     "position": "Full-Stack Web Developer (Studi Independen)",
                     "time": "Januari 2024 – Juni 2024",
                     "sortDate": "2024-01",
-                    "desc": "Berpartisipasi dalam program Studi Independen Kampus Merdeka di bawah PT. Presentologics. Membangun aplikasi web full-stack menggunakan React.js dan Node.js, mengimplementasikan RESTful API, dan berkolaborasi dengan mentor untuk mengikuti praktik terbaik dalam deployment dan version control."
+                    "desc": "Menyelesaikan program intensif Kampus Merdeka fokus pengembangan web full-stack (React.js, Node.js), mengimplementasikan RESTful API, dan menyelesaikan proyek akhir aplikasi web sebagai syarat kelulusan."
                 },
                 {
-                    "company": "Freelance",
-                    "position": "Data Entry & Web Assistant",
-                    "time": "Juni 2022 – Agustus 2023",
+                    "company": "Freelance (Project Based)",
+                    "position": "Data Entry",
+                    "time": "Juni 2022 – Maret 2023",
                     "sortDate": "2022-06",
-                    "desc": "Menangani tugas entri data dengan akurasi tinggi sambil membantu pengelolaan konten web dasar. Mengembangkan antarmuka web skala kecil untuk klien menggunakan HTML, CSS, dan JavaScript untuk mendukung alur kerja administratif mereka."
+                    "desc": "Bertanggung jawab atas entri data harian ke dalam sistem manajemen klien dengan tingkat akurasi tinggi serta melakukan validasi dan pembersihan data (data cleaning)."
                 }
             ]
         },
         "education": {
             "title": "Pendidikan Saya",
-            "desc": "Saya memiliki latar belakang pendidikan yang kuat dalam ilmu komputer dan pengembangan web. Saya selalu ingin belajar keterampilan dan teknologi baru untuk meningkatkan pengetahuan dan keahlian saya.",
+            "desc": "Saya memiliki latar belakang pendidikan formal di bidang Teknik Informatika dan secara konsisten mengembangkan keahlian teknologi melalui proyek nyata dan riset.",
             "items": [
                 {
                     "institution": "Universitas Maarif Hasyim Latif",
-                    "position": "Sarjana Teknik Informatika",
-                    "time": "2021 - 2025"
-                },
-                {
-                    "institution": "SMK YPM 8 Sidoarjo",
-                    "position": "Sekolah kejuruan otomotif",
-                    "time": "2018 - 2021"
+                    "position": "Sarjana Teknik Informatika (IPK 3.54 / 4.00)",
+                    "time": "September 2021 – September 2025"
                 }
             ]
         },
         "skills": {
             "title": "Keahlian Saya",
-            "desc": "Saya memiliki berbagai keterampilan yang telah saya peroleh melalui pendidikan dan pengalaman kerja. Saya mahir dalam berbagai bahasa pemrograman dan framework, dan saya selalu ingin belajar keterampilan baru."
+            "desc": "Kumpulan teknologi dan alat yang saya kuasai dalam pengembangan perangkat lunak, pengujian kualitas, serta alur kerja berbasis kecerdasan buatan (AI-Assisted)."
         }
     },
     "projects": {
@@ -155,6 +143,73 @@
         "items": [
             {
                 "num": "01",
+                "category": "Full Stack SaaS Enterprise",
+                "title": "PlexSeller",
+                "desc": "Platform bisnis all-in-one multi-tenant berskala enterprise dengan modul kompleks seperti Warehouse Management System (WMS), POS Kasir, Omnichannel, Manufaktur, dan Akuntansi. Dikembangkan menggunakan MERN Stack (MongoDB, Express.js, React, Node.js) dengan penerapan AI-assisted development dan pengujian komprehensif.",
+                "stack": [
+                    {
+                        "name": "React.js"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Express.js"
+                    },
+                    {
+                        "name": "MySQL"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "AI-Assisted Dev"
+                    },
+                    {
+                        "name": "Docker"
+                    }
+                ],
+                "img": "/assets/projects/porto-PS.webp",
+                "github": "#",
+                "live": "https://plexseller.com"
+            },
+            {
+                "num": "02",
+                "category": "Frontend & QC Software",
+                "title": "Muatpartsplus (muatmuat)",
+                "desc": "Aplikasi logistik internasional (Muatpartsplus). Berkontribusi dalam 2 role utama: AI Operator Front-End (membantu tim frontend untuk slicing UI dari Figma dan bug fixing antarmuka) serta QC Software Engineer (melakukan pengujian fungsional dan pelaporan bug secara sistematis pada modul kritis).",
+                "stack": [
+                    {
+                        "name": "React.js"
+                    },
+                    {
+                        "name": "Next.js"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "Figma"
+                    },
+                    {
+                        "name": "Manual QC"
+                    },
+                    {
+                        "name": "AI Operator"
+                    }
+                ],
+                "img": "/assets/projects/porto-MPP.webp",
+                "github": "#",
+                "live": "https://muatmuat.com/"
+            },
+            {
+                "num": "03",
                 "category": "Full Stack",
                 "title": "Wisata Wonders",
                 "desc": "Platform pariwisata berbasis web yang memungkinkan pengguna menjelajahi berbagai destinasi wisata, melihat informasi detail tentang destinasi wisata tersebut dan juga event wisata yang akan datang. Dibangun dengan MERN stack (MongoDB, Express, React, Node.js) dan dirancang dengan UI responsif untuk pengalaman pengguna yang menarik.",
@@ -186,7 +241,7 @@
                 "live": "https://wisata-wonders.vercel.app/"
             },
             {
-                "num": "02",
+                "num": "04",
                 "category": "Frontend",
                 "title": "Argany Teknik",
                 "desc": "Website company profile responsif untuk Argany Teknik, penyedia layanan perbaikan AC dan elektronik. Dibangun menggunakan React dan Tailwind CSS untuk memastikan desain yang modern, cepat dimuat, dan mobile-friendly yang menyoroti layanan dan informasi kontak perusahaan.",
@@ -209,7 +264,7 @@
                 "live": "https://www.arganyteknik.biz.id/"
             },
             {
-                "num": "03",
+                "num": "05",
                 "category": "Full Stack IoT Dashboard",
                 "title": "Smart Chili Garden",
                 "desc": "Sistem monitoring dan kontrol berbasis IoT untuk perkebunan cabai. Dashboard menampilkan data kelembaban tanah secara real-time dan memungkinkan kontrol jarak jauh untuk sistem irigasi dan pestisida. Terintegrasi dengan ESP32, protokol MQTT, dan backend Node.js yang terhubung ke database MySQL.",
@@ -244,7 +299,7 @@
                 "live": "https://smart-chili-garden.vercel.app/"
             },
             {
-                "num": "04",
+                "num": "06",
                 "category": "Frontend",
                 "title": "Asyila Majun",
                 "desc": "Website company profil modern untuk Asyila Majun, bisnis yang berspesialisasi dalam penjualan kain pembersih industri yang terbuat dari kain daur ulang. Dikembangkan dengan React, Next.js, dan Tailwind CSS, fokus pada desain yang bersih, optimisasi SEO, dan presentasi produk yang jelas.",
@@ -318,7 +373,7 @@
                 "text": "Proyek Selesai"
             },
             {
-                "num": 10,
+                "num": 14,
                 "text": "Teknologi Digunakan"
             },
             {

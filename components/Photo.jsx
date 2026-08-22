@@ -12,6 +12,16 @@ export const Photo = () => {
           opacity: 1,
           transition: { duration: 0.4, delay: 2, ease: "easeInOut" }
         }}>
+        {/* Metallic circular frame behind photo */}
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+            w-[270px] h-[270px] xl:w-[462px] xl:h-[462px] rounded-full"
+          style={{
+            background: 'linear-gradient(145deg, var(--sku-raised-from), var(--sku-panel-to))',
+            boxShadow: '0 6px 24px rgba(0,0,0,0.55), inset 0 2px 0 rgba(255,255,255,0.12), inset 0 -2px 0 rgba(0,0,0,0.3)',
+            border: '2px solid var(--border-color)',
+          }}
+        />
         {/* Image */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -22,7 +32,7 @@ export const Photo = () => {
           className="w-[260px] h-[260px] xl:w-[450px] xl:h-[450px] dark:mix-blend-lighten absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <Image src="/assets/Profile.png" priority quality={100} fill alt="" className="object-contain" />
         </motion.div>
-        {/* Circle */}
+        {/* Animated circle */}
         <motion.svg
           initial={{ opacity: 0 }}
           animate={{

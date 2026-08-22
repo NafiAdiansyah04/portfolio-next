@@ -38,16 +38,15 @@ const Contact = () => {
             <form
               action="https://formsubmit.co/nafiadiansyah24@gmail.com"
               method="POST"
-              className="flex flex-col gap-6 p-10 bg-secondary-bg rounded-xl"
+              className="sku-panel flex flex-col gap-6 p-10"
             >
-              {/* 🧠 Hidden inputs for FormSubmit configuration */}
+              {/* Hidden inputs for FormSubmit configuration */}
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_next" value="https://naffscg.my.id" />
-              {/* ganti yourdomain.com dengan domain website kamu nanti */}
 
-              <h3 className="text-4xl text-accent">{t('title')}</h3>
-              <p className="text-primary-text/60">
+              <h3 className="text-4xl text-accent sku-emboss">{t('title')}</h3>
+              <p className="text-primary-text/60 sku-engrave">
                 {t('description')}
               </p>
 
@@ -59,7 +58,7 @@ const Contact = () => {
               </div>
 
               <Select name="service">
-                <SelectTrigger className="w-full px-6">
+                <SelectTrigger className="w-full px-6 sku-input">
                   <SelectValue placeholder={t('form.selectService')} />
                 </SelectTrigger>
                 <SelectContent>
@@ -91,12 +90,12 @@ const Contact = () => {
               {contactInfo.map((item, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6">
-                    <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-secondary-bg text-accent rounded-md flex items-center justify-center">
+                    <div className="sku-icon-badge w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] text-accent rounded-xl flex items-center justify-center">
                       <div className="text-[28px]">{iconMap[index]}</div>
                     </div>
                     <div className="flex-1">
-                      <p className="text-primary-text/60">{item.title}</p>
-                      <h3 className="text-xl text-primary-text">{item.desc}</h3>
+                      <p className="text-primary-text/60 sku-engrave">{item.title}</p>
+                      <h3 className="text-xl text-primary-text sku-emboss">{item.desc}</h3>
                     </div>
                   </li>
                 )

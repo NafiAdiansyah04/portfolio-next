@@ -8,11 +8,11 @@
         "hireMe": "Hire me"
     },
     "home": {
-        "role": "Website Developer",
+        "role": "Fullstack Developer & QC Engineer",
         "greeting": "Hello I'm",
         "name": "Moh. Alim Nafi' Adiansyah",
-        "description": "Web Developer with experience since 2022, specializing in the MERN Stack and Next.js. Experienced in building functional, responsive, and scalable web applications.",
-        "descriptionPart2": "In addition to development, I have hands-on experience in Manual Quality Control (QC) Testing, ensuring application quality through test case execution, bug identification, and collaboration with development teams. Proficient in JavaScript, HTML/CSS, SQL, and committed to delivering reliable and high-quality digital solutions.",
+        "description": "Computer Science Graduate (GPA 3.54) with professional experience as a Fullstack Developer and QC Software Engineer. Experienced in designing, developing, and maintaining enterprise-scale web applications (multi-tenant SaaS) using MERN Stack (MongoDB, Express.js, React, Node.js) and Tailwind CSS.",
+        "descriptionPart2": "Used to applying AI-assisted development methods to accelerate coding cycles and feature optimization, combined with high precision in module testing (quality control/debugging). Committed to producing clean, efficient code that directly impacts user business needs.",
         "downloadCV": "Download CV"
     },
     "services": {
@@ -48,7 +48,7 @@
         },
         "about": {
             "title": "About Me",
-            "desc": "I am a passionate Web Developer and QA Engineer with over 2 years of experience in creating dynamic and responsive websites. My expertise lies in front-end development, but I also have a strong understanding of back-end technologies and QA Engineer. I love to learn new things and stay updated with the latest trends in web development.",
+            "desc": "I am a Fullstack Developer and QC Software Engineer experienced in designing, developing, and maintaining enterprise-scale web applications (multi-tenant SaaS). Proficient in MERN Stack, Next.js, AI-assisted development, and comprehensive software quality testing.",
             "info": [
                 {
                     "fieldName": "Name :",
@@ -82,71 +82,59 @@
         },
         "experience": {
             "title": "My Experience",
-            "desc": "I have collaborated with a range of clients and organizations — from small businesses to tech companies — focusing on building responsive web solutions, IoT integrations, and efficient digital systems that deliver real impact.",
+            "desc": "My professional experience spans multi-tenant enterprise SaaS platform development, software quality control and testing (QC/QA), AI system operations, and responsive web and IoT projects.",
             "items": [
                 {
-                    "company": "PT. AZ Logistik Dot Com",
-                    "position": "QC/QA Software (Project Based)",
-                    "time": "January 2026 – February 2026",
-                    "sortDate": "2026-01",
-                    "desc": "Conducting thorough quality control and assurance testing for the company's logistics software applications. Identifying bugs, verifying fixes, and ensuring that the software meets specified requirements before deployment."
-                },
-                {
-                    "company": "Argany Teknik",
-                    "position": "Web Developer (Project Based)",
-                    "time": "June 2025 | June 2025",
-                    "sortDate": "2025-06",
-                    "desc": "Designed and developed a responsive company profile website for an HVAC and electronics repair service. Focused on a clean UI and fast performance using React and Tailwind CSS, improving user trust and lead conversion."
+                    "company": "PlexSeller",
+                    "position": "Fullstack Developer",
+                    "time": "April 2026 – Present",
+                    "sortDate": "2026-04",
+                    "desc": "Developing and maintaining PlexSeller, an all-in-one multi-tenant business platform (WMS, POS Cashier, Omnichannel, Manufacturing, Accounting). Implementing AI-assisted development methods, building new features, and performing bug fixing and comprehensive testing."
                 },
                 {
                     "company": "PT. AZ Logistik Dot Com",
-                    "position": "AI Operator Front-End Developer (Project Based)",
-                    "time": "November 2025 – December 2025",
+                    "position": "Operator AI & QC Software",
+                    "time": "November 2025 – February 2026",
                     "sortDate": "2025-11",
-                    "desc": "Slicing UI from figma, and implementing API with the help of AI, as well as helping in the bug fixing process for the company's internal logistics application to improve operational efficiency."
+                    "desc": "Contributed to the development and maintenance of an international logistics application (Muatpartsplus). Performed functional testing and systematic bug reporting on critical modules, collaborating with dev team for bug fixes and performance optimization."
                 },
                 {
-                    "company": "Asyila Majun",
-                    "position": "Web Developer (Project Based)",
-                    "time": "August 2024 | August 2024",
-                    "sortDate": "2024-08",
-                    "desc": "Developed and maintained the company's landing page using React and Next.js with Tailwind CSS. Focused on creating a modern, responsive design to enhance user engagement and optimize business visibility online. Collaborated with cross-functional teams to ensure seamless integration of design and functionality."
+                    "company": "Freelance",
+                    "position": "Web Developer",
+                    "time": "June 2024 – Present",
+                    "sortDate": "2024-06",
+                    "desc": "Designing and implementing responsive websites such as company profiles and online portfolios using Tailwind CSS and React.js, and building inventory management systems integrated with SQL databases."
                 },
                 {
                     "company": "PT. Presentologics",
                     "position": "Full-Stack Web Developer (Independent Study)",
                     "time": "January 2024 – June 2024",
                     "sortDate": "2024-01",
-                    "desc": "Participated in the Kampus Merdeka Independent Study program under PT. Presentologics. Built full-stack web applications using React.js and Node.js, implemented RESTful APIs, and collaborated with mentors to follow best practices in deployment and version control."
+                    "desc": "Completed an intensive Kampus Merdeka program focused on full-stack web development (React.js, Node.js), implemented RESTful APIs, and built a web application final project."
                 },
                 {
-                    "company": "Freelance",
-                    "position": "Data Entry & Web Assistant",
-                    "time": "June 2022 – August 2023",
+                    "company": "Freelance (Project Based)",
+                    "position": "Data Entry",
+                    "time": "June 2022 – March 2023",
                     "sortDate": "2022-06",
-                    "desc": "Handled data entry tasks with high accuracy while assisting in basic web content management. Developed small-scale web interfaces for clients using HTML, CSS, and JavaScript to support their administrative workflows."
+                    "desc": "Responsible for daily data entry into client management systems with high accuracy, along with data validation and data cleaning."
                 }
             ]
         },
         "education": {
             "title": "My Education",
-            "desc": "I have a strong educational background in computer science and web development. I am always eager to learn new skills and technologies to enhance my knowledge and expertise.",
+            "desc": "I hold a formal educational background in Informatics Engineering and consistently enhance my tech skills through real-world projects and research.",
             "items": [
                 {
                     "institution": "Universitas Maarif Hasyim Latif",
-                    "position": "Bachelor of Computer Science",
-                    "time": "2021 - 2025"
-                },
-                {
-                    "institution": "SMK YPM 8 Sidoarjo",
-                    "position": "Automotive vocational school",
-                    "time": "2018 - 2021"
+                    "position": "Bachelor of Informatics Engineering (GPA 3.54 / 4.00)",
+                    "time": "September 2021 – September 2025"
                 }
             ]
         },
         "skills": {
             "title": "My Skills",
-            "desc": "I have a diverse set of skills that I have acquired through my education and work experience. I am proficient in a variety of programming languages and frameworks, and I am always eager to learn new skills."
+            "desc": "Technologies and tools I have mastered across software development, quality testing, and AI-assisted workflows."
         }
     },
     "projects": {
@@ -155,6 +143,73 @@
         "items": [
             {
                 "num": "01",
+                "category": "Full Stack SaaS Enterprise",
+                "title": "PlexSeller",
+                "desc": "An enterprise-scale all-in-one multi-tenant business platform featuring complex modules such as Warehouse Management System (WMS), POS Cashier, Omnichannel, Manufacturing, and Accounting. Developed using MERN Stack (MongoDB, Express.js, React, Node.js) with AI-assisted development and comprehensive testing.",
+                "stack": [
+                    {
+                        "name": "React.js"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "Express.js"
+                    },
+                    {
+                        "name": "MySQL"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "AI-Assisted Dev"
+                    },
+                    {
+                        "name": "Docker"
+                    }
+                ],
+                "img": "/assets/projects/porto-PS.webp",
+                "github": "#",
+                "live": "https://plexseller.com"
+            },
+            {
+                "num": "02",
+                "category": "Frontend & QC Software",
+                "title": "Muatpartsplus (muatmuat)",
+                "desc": "International logistics application (Muatpartsplus). Contributed in 2 primary roles: AI Operator Front-End (assisting the frontend team with Figma UI slicing and interface bug fixing) and QC Software Engineer (performing functional testing and systematic bug reporting on critical modules).",
+                "stack": [
+                    {
+                        "name": "React.js"
+                    },
+                    {
+                        "name": "Next.js"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "Figma"
+                    },
+                    {
+                        "name": "Manual QC"
+                    },
+                    {
+                        "name": "AI Operator"
+                    }
+                ],
+                "img": "/assets/projects/porto-MPP.webp",
+                "github": "#",
+                "live": "https://muatmuat.com/"
+            },
+            {
+                "num": "03",
                 "category": "Full Stack",
                 "title": "Wisata Wonders",
                 "desc": "A web-based tourism platform that allows users to explore various travel destinations, view detailed information about the destination and also upcoming tourism events. Built with the MERN stack (MongoDB, Express, React, Node.js) and designed with responsive UI for an engaging user experience.",
@@ -186,7 +241,7 @@
                 "live": "https://wisata-wonders.vercel.app/"
             },
             {
-                "num": "02",
+                "num": "04",
                 "category": "Frontend",
                 "title": "Argany Teknik",
                 "desc": "A responsive company profile website for Argany Teknik, an air conditioner and electronic repair service provider. Built using React and Tailwind CSS to ensure a modern, fast-loading, and mobile-friendly design that highlights the company's services and contact information.",
@@ -209,7 +264,7 @@
                 "live": "https://www.arganyteknik.biz.id/"
             },
             {
-                "num": "03",
+                "num": "05",
                 "category": "Full Stack IoT Dashboard",
                 "title": "Smart Chili Garden",
                 "desc": "An IoT-based monitoring and control system for chili plantations. The dashboard displays real-time soil moisture data and allows remote control of irrigation and pesticide systems. Integrated with ESP32, MQTT protocol, and a Node.js backend connected to a MySQL database.",
@@ -244,7 +299,7 @@
                 "live": "https://smart-chili-garden.vercel.app/"
             },
             {
-                "num": "04",
+                "num": "06",
                 "category": "Frontend",
                 "title": "Asyila Majun",
                 "desc": "A modern company profile website for Asyila Majun, a business specializing in selling industrial cleaning cloths made from recycled fabrics. Developed with React, Next.js, and Tailwind CSS, focusing on clean design, SEO optimization, and clear product presentation.",
@@ -318,7 +373,7 @@
                 "text": "Projects Completed"
             },
             {
-                "num": 10,
+                "num": 14,
                 "text": "Technologies Used"
             },
             {
